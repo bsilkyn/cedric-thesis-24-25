@@ -12,6 +12,8 @@
 	--color-red: var(--vscode-terminal-ansiRed);
 	--color-green: var(--vscode-terminal-ansiGreen);
 	--color-blue: var(--vscode-terminal-ansiBlue);
+
+	--font-droid: "Droid Sans Mono", monospace;
 }
 
 @layer base {

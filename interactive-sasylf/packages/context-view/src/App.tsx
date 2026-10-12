@@ -17,7 +17,7 @@ const App: Component = () => {
 	return (
 		<Show when={context()}>
 			{c => (
-				<div class="mx-2 my-4 flex flex-col gap-2">
+				<div class="mx-2 my-4 flex flex-col gap-2 font-droid">
 					<Show when={c().currentTheorem}>
 						{t => <h1><Theorem theorem={t()} /></h1>}
 					</Show>

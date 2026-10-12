@@ -1,3 +1,5 @@
+package abc
+
 terminals
     fn
     true false
@@ -98,7 +100,7 @@ e stepsorvalue
 
 e -> e'
 -------------- stepval-step
-e stepsorvalue5
+e stepsorvalue
 
 theorem progress : forall dt : * |- e : tau exists e stepsorvalue.
     dsv : e stepsorvalue by induction on dt :

@@ -1,3 +1,5 @@
+package abc
+
 terminals z s
 
 syntax
