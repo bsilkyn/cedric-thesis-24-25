@@ -3,6 +3,7 @@
 	"tasks": {
 		"build": {
 			"dependsOn": [
+				"^build",
 				"^type-check",
 				"^lint"
 			],
@@ -34,7 +35,7 @@
 			"outputs": []
 		},
 		"type-check": {
-			"dependsOn": [],
+			"dependsOn": ["^build"],
 			"outputLogs": "full",
 			"outputs": []
 		}
